@@ -1,0 +1,45 @@
+.search__icon{
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 30px;
+    height: 30px;
+    
+}
+.logo__img{
+    width: 80px;
+}
+.block__img{
+    padding-left: 50px;
+    z-index: 1;
+}
+header{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    border-bottom: 3px solid rgb(54, 53, 53);
+    padding-bottom: 10px;
+}
+.search__on__yt button{
+    width: 55px;
+    height: 45px;
+    background: rgb(70, 69, 69);
+    padding-top: 13px;
+    position: relative;
+    border-radius: 2px;
+}
+.search__on__yt input{
+    background: rgb(20, 20, 20);
+    font-size: 18px;
+    padding-left: 10px;
+    width: 700px;
+    height: 47px;
+    border-radius: 5px;
+    font-family: Montserrat;
+    color: rgb(185, 185, 185);
+    
+}
+.search__on__yt{
+    margin: 0 auto;
+}

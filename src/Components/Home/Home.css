@@ -1,0 +1,37 @@
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 20px auto;
+}
+.content{
+    padding-bottom: 30px;
+}
+.card {
+    flex: 0 1 24%;
+    color: white;
+    font-family: Montserrat;
+    display: block;
+    
+    height: 350px;
+    margin-top: 15px;
+    border-radius: 3px;
+    box-shadow: rgb(15, 15, 15) 1px 1px 3px 1px ;
+}
+
+.card img {
+    border-radius: 3px;
+    width: 100%;
+}
+.card h1 {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 3px;
+}
+.card h4{
+    margin-top: 20px;
+    margin-left: 3px;
+    font-size: 15px;
+    color: rgb(187, 186, 186);
+}
